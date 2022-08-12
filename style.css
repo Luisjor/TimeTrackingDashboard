@@ -129,27 +129,27 @@ section {
 }
 
 .Play {
-    background-image: url(./images/icon-Play.svg);
+    background-image: url(./images/icon-play.svg);
     background-color: var(--Soft-blue-play);
 }
 
 .Study {
-    background-image: url(./images/icon-Study.svg);
+    background-image: url(./images/icon-study.svg);
     background-color: var(--Light-red-study);
 }
 
 .Exercise {
-    background-image: url(./images/icon-Exercise.svg);
+    background-image: url(./images/icon-exercise.svg);
     background-color: var(--Lime-green-exercise);
 }
 
 .Social {
-    background-image: url(./images/icon-Social.svg);
+    background-image: url(./images/icon-social.svg);
     background-color: var(--Violet-social);
 }
 
 .SelfCare {
-    background-image: url(./images/icon-Self-Care.svg);
+    background-image: url(./images/icon-self-care.svg);
     background-color: var(--Soft-orange-self-care);
 }
 
@@ -238,4 +238,6 @@ section {
         grid-row: 2;
         font-size: .8rem;
     }
+
+    Button {} 
 }
