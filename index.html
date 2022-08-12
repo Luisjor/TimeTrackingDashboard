@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Jorge Chávez | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="container">
+
+    <section class="User">
+      <div class="Info">
+        <img src="./images/image-jeremy.png" class="UserAvatar">
+        <span>Report for</span>
+        <h1>Jeremy Robson</h1> 
+      </div>
+      <div class="Settings">
+        <button data-period="daily" id="TimeButtons" class="Button">Daily</button>
+        <button data-period="weekly" id="TimeButtons" class="Button">Weekly</button>
+        <button data-period="monthly" id="TimeButtons" class="Button">Monthly</button>
+      </div>
+    </section>
+
+    <section class="BackImg Work">
+      <div class="Hours">
+        <h2 id="Info">Work</h2>
+        <div data-activity="Work" class="currentHours" id="Info">0hrs</div>
+        <div data-activity="Work" class="PreviousHours" id="Info">Previous - 0hrs</div>
+      </div>
+
+    </section>
+
+    <section class="BackImg Play">
+      <div></div>
+      <div class="Hours">
+        <h2 id="Info">Play</h2>
+        <div data-activity="Play" class="currentHours" id="Info">0hr</div>
+        <div data-activity="Play" class="PreviousHours" id="Info">Previous - 0hrs</div>
+      </div>
+      
+    </section>
+
+    <section class="BackImg Study">
+      <div></div>
+
+      <div class="Hours">
+        <h2 id="Info">Study</h2>
+        <div data-activity="Study" class="currentHours" id="Info">0hrs</div>
+        <div data-activity="Study" class="PreviousHours" id="Info">Previous - 0hr</div>
+      </div>
+    </section>
+
+    <section class="BackImg Exercise">
+      <div></div>
+
+      <div class="Hours">
+        <h2 id="Info">Exercise</h2>
+        <div data-activity="Exercise" class="currentHours" id="Info">0hr</div>
+        <div data-activity="Exercise" class="PreviousHours" id="Info">Previous - 0hr</div>
+      </div>
+    </section>
+
+    <section class="BackImg Social">
+      <div></div>
+
+      <div class="Hours">
+        <h2 id="Info">Social</h2>
+        <div data-activity="Social" class="currentHours" id="Info">0hr</div>
+        <div data-activity="Social" class="PreviousHours" id="Info">Previous - 0hrs</div>
+      </div>
+    </section>
+
+    <section class="BackImg SelfCare">
+      <div></div>
+      <div class="Hours">
+        <h2 id="Info">Self Care</h2>
+        <div data-activity="Self Care" class="currentHours" id="Info">0hrs</div>
+        <div data-activity="Self Care" class="PreviousHours" id="Info">Previous - 0hr</div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
