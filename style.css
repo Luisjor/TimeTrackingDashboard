@@ -91,6 +91,7 @@ section {
 
 .Info {
     display: grid;
+    grid-template-rows: 1fr 1fr;
     background-color: var(--Blue);
     border-radius: 15px;
     padding: 1.5rem;
@@ -129,27 +130,27 @@ section {
 }
 
 .Play {
-    background-image: url(./images/icon-play.svg);
+    background-image: url(./images/icon-Play.svg);
     background-color: var(--Soft-blue-play);
 }
 
 .Study {
-    background-image: url(./images/icon-study.svg);
+    background-image: url(./images/icon-Study.svg);
     background-color: var(--Light-red-study);
 }
 
 .Exercise {
-    background-image: url(./images/icon-exercise.svg);
+    background-image: url(./images/icon-Exercise.svg);
     background-color: var(--Lime-green-exercise);
 }
 
 .Social {
-    background-image: url(./images/icon-social.svg);
+    background-image: url(./images/icon-Social.svg);
     background-color: var(--Violet-social);
 }
 
 .SelfCare {
-    background-image: url(./images/icon-self-care.svg);
+    background-image: url(./images/icon-Self-Care.svg);
     background-color: var(--Soft-orange-self-care);
 }
 
@@ -199,6 +200,10 @@ section {
         font-size: 21px;
     }
 
+    section {
+        height: 150px;
+    }
+
     #container {
         grid-template-columns: 1fr;
         width: 300px;
@@ -238,6 +243,4 @@ section {
         grid-row: 2;
         font-size: .8rem;
     }
-
-    Button {} 
 }
